@@ -282,7 +282,7 @@ def main():
         results = tester.run_tests(args.targets, args.duration, args.rate)
         
         # Output results
-        json_output = json.dumps(results, indent=2)
+        json_output = json.dumps(results, indent=4)
 
         json_output = re.sub(
             r'"RTT_samples":\s*\[\s*((?:\d+,?\s*)+)\s*\]',
