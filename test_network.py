@@ -250,11 +250,6 @@ def main():
         help="Logging level (default: INFO)"
     )
     
-    parser.add_argument(
-        "--output-file",
-        help="Save JSON results to file (optional)"
-    )
-    
     args = parser.parse_args()
     
     # Validate arguments
@@ -292,12 +287,6 @@ def main():
         )
 
         print(json_output)
-        
-        # Save to file if specified
-        if args.output_file:
-            with open(args.output_file, 'w') as f:
-                f.write(json_output)
-            print(f"\nResults saved to {args.output_file}")
         
     except KeyboardInterrupt:
         print("\nTest interrupted by user")
