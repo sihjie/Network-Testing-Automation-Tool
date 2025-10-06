@@ -6,15 +6,15 @@ stability evaluation.
 3. Support Multiple Target Devices: Allow users to input multiple IP addresses for
 simultaneous testing.
 4. Structured JSON Output:
-  - Start and end timestamps.
-  - RTT samples per device.
-  - Packet loss percentage per device.
-  - Configurable logging output format.
+    - Start and end timestamps.
+    - RTT samples per device.
+    - Packet loss percentage per device.
+    - Configurable logging output format.
 5. Error Handling & Logging:
-  - Implement a retry mechanism (default: 3 retries before marking as
-  unreachable).
-  - Log test failures with timestamps and error details.
-  - Allow configurable retry settings (e.g., --retry-count, --retry-interval).
+    - Implement a retry mechanism (default: 3 retries before marking as
+    unreachable).
+    - Log test failures with timestamps and error details.
+    - Allow configurable retry settings (e.g., --retry-count, --retry-interval).
 
 ## Implementation
 1. 模組化：將邏輯封裝在 NetworkTester 類別裡，讓程式清晰且可維護。
