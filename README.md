@@ -26,6 +26,7 @@ simultaneous testing.
 7. `_test_device`：針對單一設備在指定時間與速率下重複 ping，最後計算統計結果。
 
 - test modify 2025/12/8 19:16
+- test moify second time 2025/12/8 20:48
 
 ## Demo
 <img width="894" height="505" alt="image" src="https://github.com/user-attachments/assets/0ce23444-9212-4972-a85f-c6c480d21bf7" />
