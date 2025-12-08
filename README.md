@@ -25,6 +25,8 @@ simultaneous testing.
 6. `_single_ping`：負責單次 ping，加入重試與 timeout 保護，並有 debug 日誌方便除錯。
 7. `_test_device`：針對單一設備在指定時間與速率下重複 ping，最後計算統計結果。
 
+- test modify 2025/12/8 19:16
+
 ## Demo
 <img width="894" height="505" alt="image" src="https://github.com/user-attachments/assets/0ce23444-9212-4972-a85f-c6c480d21bf7" />
 
